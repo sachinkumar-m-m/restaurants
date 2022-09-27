@@ -102,7 +102,8 @@ const Login = () => {
                         Don't have an account?{" "}
                         <span
                             className="cursor-pointer underline"
-                            onClick={() => history.push("/signup")}>
+                            onClick={() => history.push(" ")}>
+
                             Click Here
                         </span>
                         .
