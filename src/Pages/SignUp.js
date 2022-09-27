@@ -113,12 +113,13 @@ const SignUp = () => {
 						</Button>
 					</div>
                     {error !== 'Success' && <p className="text-red-900 my-5">{error}</p>}
-                    {error==='Success' && <p className="text-green-400 my-5">User Created Successfully!!!. <span className="font-bold underline cursor-pointer" onClick={()=>history.push('/')}>Click Here</span> to Login</p>}
+                    {error==='Success' && <p className="text-green-400 my-5">User Created Successfully!!!. <span className="font-bold underline cursor-pointer" onClick={()=>history.push('/login')}>Click Here</span> to Login</p>}
 					<p className="mt-5">
 						Already have an account?{" "}
 						<span
 							className="cursor-pointer underline"
-							onClick={() => history.push("/")}>
+							
+								    onClick={() => history.push("/login")}>
 							Click Here
 						</span>
 						.
